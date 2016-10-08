@@ -1,0 +1,91 @@
+body, p,div,ul,li,h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+    background: #fff;
+}
+body{
+	background: url(../images/bj.jpg) #fff repeat-x;
+	font-size: 12px;
+}
+h1{
+	font-size: 32px;
+	color: #F9D882;
+	padding: 0 10px;
+	height: 65px;
+	line-height: 65px;
+}
+.advert-box {
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+
+}
+.page-list {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+
+}
+.page-list>li{
+	float: left;
+	background: #CCC;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	font-size: 12px;
+	margin: 0 5px;
+	text-align: center;
+	line-height: 15px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.page-list>li:hover{
+	background: #333;
+
+}
+.nav table{
+	width: 100%;
+}
+
+.nav{
+	background: url(../images/indexnav.jpg) repeat-x;
+	height: 33px;
+	overflow: hidden;
+}
+.nav .active-menu {
+	background: url(../images/navbj.jpg) center no-repeat;
+	color: #f96b0b;
+}
+.nav a{
+	display: inline-block;
+	width: 138px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+
+
+
+}
+.nav a:hover{
+	background: url(../images/navbj.jpg) center no-repeat;
+	color: #f96b0b;
+
+}
