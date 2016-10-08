@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>联系我们</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/campany.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<link rel="stylesheet" type="text/css" href="css/public.css" />
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+	<div class="wrapBox">
+		<!-- 头部 S -->
+		<div class="header_box">
+			<h1>郑州聚创饲料</h1>
+			<!-- 焦点图 E-->
+			<div class="focus_img_box">
+				<ul class="focus_img_list">
+					<li class="first"><img src="res/focus_img_01.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_02.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_03.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_04.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_05.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_06.jpg" width="1000" height="350"></li>
+				</ul>
+				<div class="focus_img_idx">
+					<ul>
+						<li class="cur"> <span class="idx_bg"></span><a href="javascript:void(0)">1</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">2</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">3</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">4</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">5</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">6</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 焦点图 S-->
+
+			<!-- 导航 E-->
+			<div class="index_menu">
+				<table>
+					<tbody>
+						<tr>
+							<td class="indexMain"><a href="index.html">首页</a></td>
+							<td><a href="content.html#model:menu1/type:menu1_1" onclick="refresh(this)" id="main_menu1">公司简介</a></td>
+							<td><a href="content.html#model:menu2/type:menu2_1" onclick="refresh(this)" id="main_menu2">发展规划</a></td>
+							<td><a href="content.html#model:menu3/type:menu3_1" onclick="refresh(this)" id="main_menu3">管理模式</a></td>
+							<td><a href="join.html">人才战略</a></td>
+							<td class="cur_menu"><a>联系方式</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- 导航 S-->
+		</div>
+		<!-- 头部 E -->
+
+		<!-- 内容 S -->
+		<div class="content_box" id="callContent">
+
+			<div class="article_box">
+				<div class="article_head">联系我们</div>
+				<div class="article_list">
+					<div class="article">
+						<h3>郑州聚创饲料有限公司</h3>
+						<div class="item_info">地址：郑州市金水区兴达路办事处马渡村</div>
+						<div class="item_info">电话传真：037165573708</div>
+						<div class="item_info">公司电话：400-800-6994</div>
+					</div>
+									
+				</div>
+			</div>
+		</div>
+		<!-- 内容 E -->
+
+		<!-- 底部 S -->
+		<div class="font_wrap">
+			<p>版权所有：郑州聚创有限公司</p>
+		</div>
+		<!-- 底部 E -->
+	</div>
+</body>
+<script type="text/template" id="asideTitleTpl">
+	<span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span>
+	<label><%= modelName %></label>
+	<span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span>	
+</script>
+<script type="text/template" id="asideMenuTpl">
+
+	<li id="<%= id %>"><a href="<%= hrefStr %>" onclick="refresh(this)"><%= menuName %></a></li>
+</script>
+<script type="text/template" id="tplNewsHead">
+
+	
+</script>
+<script type="text/template" id="tplNewsHead1">
+	<h4><%= newsTitle %></h4>
+	<% if(newsDate){ %>
+		<p>发布时间：<%= newsDate %></p>
+	<% } %>
+	
+</script>
+<script type="text/javascript">
+	var companyClass = new companyFn();
+
+</script>
+</html>

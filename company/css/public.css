@@ -1,0 +1,67 @@
+/* Reset 
+----------------------------------*/
+html, body, h1, h2, h3, h4, h5, h6, table, thead, tfoot, tbody, form, fieldset, legend, div, p, span, dl, dt, dd, ul, ol, li, blockquote, pre, q, cite, code, input, select, textarea {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6, strong, em, cite, address, sup, sub {font-weight:normal; font-style:normal; font-size:1em;}
+ul, ol {list-style-type: none;}
+a:link, a:visited {text-decoration:none;}
+a:hover, a:active {text-decoration:underline;}
+
+a:link, a:visited {color:#3b3b3b;}
+a:hover, a:active {color:#ff6600;}
+a:focus{ -moz-outline:none;  outline:0; zoom:1;}
+fieldset, a img {border:none;}
+img {vertical-align:top;} 
+input, textarea, button {font-size:100%; font-family:inherit;outline:none;border-color:transparent!important;}
+button {cursor: pointer;}
+textarea {resize:vertical;}
+table {border-collapse:collapse; border-spacing:0;}
+select optgroup {font-style:normal;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+legend {display:none;}
+
+/* Widget
+----------------------------------*/
+.clearfix:after {content:"."; display:block; height:0; font-size:0; clear:both; visibility:hidden;}
+.clearfix {zoom:1;}
+
+/* clearfix Widget
+----------------------------------*/
+
+/* public
+----------------------------------*/
+body {font-size:12px;  font-family:simsun;background: url(../images/bj.jpg) #fff repeat-x;}
+html {background: #e0f0fe}
+.wrapBox {width: 1000px; margin:0px auto; background: #fff; }
+
+/*== 头部 ==*/
+.header_box h1 {height: 65px; background: url(../images/name.png) 10px center no-repeat; text-indent: -100000px; overflow: hidden;}
+
+/*== 焦点图 ==*/
+.focus_img_box {width: 1000px; height: 350px; position: relative;}
+.focus_img_box .focus_img_list {width: 1000px; height: 350px;}
+.focus_img_box .focus_img_list li {display: none; position: absolute;}
+.focus_img_box .focus_img_list .first {display: block;}
+.focus_img_box .focus_img_idx {position: absolute; right: 5px; bottom: 10px;}
+.focus_img_box .focus_img_idx li {float: left; position: relative; margin: 0px 5px;}
+.focus_img_box .focus_img_idx .idx_bg {opacity: 0.4; filter:alpha(opacity=40); position: absolute; border: 1px solid #fff; display: block; width: 15px; height: 15px; background: #ccc;}
+.focus_img_box .focus_img_idx .cur .idx_bg {background: #333;}
+.focus_img_box .focus_img_idx li a {color: #fff; position: relative; display: block; width: 17px; height: 15px; text-align: center; font-weight: bold; color: #fff; line-height: 16px;}
+/*== 导航 ==*/
+.index_menu {background: url(../images/indexnav.jpg) repeat-x; height: 33px; overflow: hidden;}
+.index_menu table {width: 100%; text-align: center;}
+.index_menu tr {height: 35px;}
+.index_menu tr td {}
+.index_menu tr td a { font-weight: bold; display: block;color: #fff; margin-top: -1px; line-height: 35px;}
+.index_menu .indexMain a {padding: 0px 7px;}
+.index_menu tr td a,.index_menu tr td a:link,.index_menu tr td a:visited {color: #fff; text-decoration: none;}
+.index_menu tr .cur_menu {background: url(../images/navbj.jpg) center no-repeat;}
+.index_menu tr .cur_menu a,.index_menu tr .cur_menu a:visited,.index_menu tr .cur_menu a:link  { color: #f96b0b; text-decoration: none;}
+.index_menu tr td a:hover {background: url(../images/navbj.jpg) center no-repeat;color: #f96b0b; text-decoration: none;}
+
+
+.list_icon {display: block;  width: 4px; height: 9px; background: url(../images/list_icon.png) no-repeat; }
+
+/*== 底部 ==*/
+.font_wrap {background: #888; color: #fff; text-align: center; height: 35px; line-height: 35px; margin-bottom: 5px;}
+

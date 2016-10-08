@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>招贤纳士</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/underscore.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/campany.js"></script>
+<script type="text/javascript" src="js/public.js"></script>
+<link rel="stylesheet" type="text/css" href="css/public.css" />
+<link rel="stylesheet" type="text/css" href="css/content.css" />
+</head>
+<body>
+	<div class="wrapBox">
+		<!-- 头部 S -->
+		<div class="header_box">
+			<h1>郑州聚创饲料</h1>
+			<!-- 焦点图 E-->
+			<div class="focus_img_box">
+				<ul class="focus_img_list">
+					<li class="first"><img src="res/focus_img_01.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_02.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_03.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_04.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_05.jpg" width="1000" height="350"></li>
+					<li><img src="res/focus_img_06.jpg" width="1000" height="350"></li>
+				</ul>
+				<div class="focus_img_idx">
+					<ul>
+						<li class="cur"> <span class="idx_bg"></span><a href="javascript:void(0)">1</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">2</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">3</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">4</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">5</a></li>
+						<li> <span class="idx_bg"></span><a href="javascript:void(0)">6</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 焦点图 S-->
+
+			<!-- 导航 E-->
+			<div class="index_menu">
+				<table>
+					<tbody>
+						<tr>
+							<td class="indexMain"><a href="index.html">首页</a></td>
+							<td><a href="content.html#model:menu1/type:menu1_1" onclick="refresh(this)" id="main_menu1">公司简介</a></td>
+							<td><a href="content.html#model:menu2/type:menu2_1" onclick="refresh(this)" id="main_menu2">发展规划</a></td>
+							<td><a href="content.html#model:menu3/type:menu3_1" onclick="refresh(this)" id="main_menu3">管理模式</a></td>
+							<td class="cur_menu"><a>人才战略</a></td>
+							<td><a href="call.html">联系方式</a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- 导航 S-->
+		</div>
+		<!-- 头部 E -->
+
+		<!-- 内容 S -->
+		<div class="content_box" id="joinContent">
+			<div class="article_box">
+				<div class="article_head">人才战略</div>
+				<div class="article_list">
+					<div class="article">
+						<h3>企业文化</h3>
+						<div class="content">
+							<p>确立聚创生存命运的根本力量是汇聚人才，确立可持续发展的核心力量还是人才，以人为本，人才资本化战略，是聚创事业的核心价值观。</p>
+							<p>聚创人始终坚持高起点发展战略，走规模化、科技化成长之路，聘请国家级科研项目专家5人，搭建了具有高素质的产品研发及技术推广队伍。</p>
+							<p>科技为本，创新为魂，积极学习，有效吸纳，使聚创紧跟行业世界前沿技术，成功推出了浓缩料、全价料、预混料等三大系列数十个品种。</p>
+							
+						</div>
+					</div>
+					<div class="article">
+						<h3>用人理念</h3>
+						<div class="content">
+							<p>聚创用人奉行德才兼备，唯才是举的人才理念，为人才开辟了三条成长通道：技能型、管理型和营销型。员工可根据企业需要和个人特质，选择不同的成长目标，聚创会给每一位员工以平等的发展机会，优越的成长舞台，实现自我最大的价值。</p>
+						</div>
+					</div>										
+				</div>
+			</div>
+		</div>
+		<!-- 内容 E -->
+
+		<!-- 底部 S -->
+		<div class="font_wrap">
+			<p>版权所有：郑州聚创有限公司</p>
+		</div>
+		<!-- 底部 E -->
+	</div>
+</body>
+<script type="text/template" id="asideTitleTpl">
+	<span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span>
+	<label><%= modelName %></label>
+	<span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span><span class="border_icon"></span>	
+</script>
+<script type="text/template" id="asideMenuTpl">
+
+	<li id="<%= id %>"><a href="<%= hrefStr %>" onclick="refresh(this)"><%= menuName %></a></li>
+</script>
+<script type="text/template" id="tplNewsHead">
+
+	
+</script>
+<script type="text/template" id="tplNewsHead1">
+	<h4><%= newsTitle %></h4>
+	<% if(newsDate){ %>
+		<p>发布时间：<%= newsDate %></p>
+	<% } %>
+	
+</script>
+<script type="text/javascript">
+	var companyClass = new companyFn();
+
+</script>
+</html>

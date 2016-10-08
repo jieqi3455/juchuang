@@ -1,0 +1,36 @@
+/*==侧边栏表页==*/
+.content_box {min-height: 300px; padding-top: 20px; padding-bottom: 20px;}
+.aside_box {width: 230px; float: left; padding-right: 35px;}
+.article_box {overflow: hidden; zoom:1;}
+.aside_wrap {border: 1px solid #f96b0b; min-height: 300px;}
+
+.aside_title {font-weight: bold;color: #fff; padding: 5px 0px; font-size: 14px; text-align: center;background: url(../images/indexnav.jpg) repeat-x;}
+.aside_title .border_icon{display: inline-block;height: 8px;position: relative;top: 0px; font-size: 0px; width: 2px;border-left: 1px dotted #fff; }
+.aside_list {padding-top: 20px;}
+.aside_list li {text-align: center; margin-bottom: 15px;}
+.aside_list li a {background: url(../images/second_menu_bg.png) center left no-repeat; height: 33px; width: 194px; display: inline-block; line-height: 33px;}
+.aside_list .cur a {color: #f96b0b;}
+
+/*==内容列表==*/
+.article_box .article_head { padding-left: 10px; font-weight: bold; font-size: 12px; color: #f96b0b; background: url(../images/menu_icon.jpg) top left no-repeat; padding-bottom: 20px; margin-bottom: 15px; border-bottom: 3px solid #f96b0b}
+.article_list .news_title_list li {position: relative;}
+
+.article_list .news_title_list li {padding:0px 60px 0px 25px; height: 30px; line-height: 30px; position: relative; border-bottom: 1px dashed #c5c5c5;}
+.article_list .news_title_list li a{ color: #666666;}
+.article_list .news_title_list li .list_idx {position: absolute; left: 0px; top: 0px;}
+.article_list .news_title_list li .list_date {position: absolute; right: 0px; top: 0px;}
+.article_list .news_title_list li .list_link {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;display: block;}
+
+.article .article_title {text-align: center; padding-bottom: 10px; border-bottom: 1px dotted #ccc; margin-bottom: 15px;}
+.article .article_title h4 {font-size: 14px; font-weight: bold; color: #f96b0b; line-height: 30px;}
+
+.article_content p {line-height: 25px; text-indent: 24px;}
+.article_content .content_img {text-align: center; padding: 5px 24px;}
+
+/*==招聘页面==*/
+#joinContent .article h3 {color: #f96b0b; font-size: 14px; font-weight: bold; line-height: 30px;}
+#joinContent .article .content p {text-indent: 24px; font-size: 12px; line-height: 25px;}
+
+/*== 联系我们 ==*/
+#callContent .article h3 {color: #f96b0b; font-size: 14px; font-weight: bold; line-height: 30px;}
+#callContent .item_info {line-height: 30px;}
