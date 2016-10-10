@@ -2,6 +2,9 @@ body, p,div,ul,li,h1,h2,h3 {
 	margin: 0;
 	padding: 0;
 }
+.clearfix:after {content:"."; display:block; height:0; font-size:0; clear:both; visibility:hidden;}
+.clearfix {zoom:1;}
+
 ol, ul {
 	list-style: none;
 	margin: 0;
@@ -81,11 +84,70 @@ h1{
 	font-weight: bold;
 
 
-
-
 }
 .nav a:hover{
 	background: url(../images/navbj.jpg) center no-repeat;
 	color: #f96b0b;
 
+}
+
+
+.jianjie{
+	display: inline-block;
+	float: left;
+	width: 275px;
+	margin: 0 17px;
+	padding: 15px 0px 15px 0px;
+	line-height: 30px;
+	color: #666;
+
+}
+
+.guihua{
+	display: inline-block;
+	float: left;
+	width: 275px;
+	margin: 0 17px;
+	padding: 15px 0px 15px 0px;
+	line-height: 30px;
+	color: #666;
+}
+
+.panel {
+	float: left;
+	display: inline-block;
+	width:295px;
+	margin: 0 17px;
+	padding: 15px 0px 15px 0px;
+	line-height: 30px;
+	color: #666;
+}
+
+
+h2{
+	background: url(../images/titlebg.png) no-repeat;
+	width: 66px;
+	height:22px;
+	display:inline-block;
+	font-size: 12px;
+	color: #fff;
+	line-height:22px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+}
+
+a{
+float: right;
+color: #fa730c;
+}
+
+span:hover{
+	text-decoration: underline;
+
+}
+
+.float>li{
+	float: left;
+	
 }
