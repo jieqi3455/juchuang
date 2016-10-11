@@ -1,0 +1,170 @@
+body, p,div,ul,li,h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {content:"."; display:block; height:0; font-size:0; clear:both; visibility:hidden;}
+.clearfix {zoom:1;}
+
+ol, ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+    background: #fff;
+}
+body{
+	background: url(../images/bj.jpg) #fff repeat-x;
+	font-size: 12px;
+}
+h1{
+	font-size: 32px;
+	color: #F9D882;
+	padding: 0 10px;
+	height: 65px;
+	line-height: 65px;
+}
+.advert-box {
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+
+}
+.page-list {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+
+}
+.page-list>li{
+	float: left;
+	background: #CCC;
+	color: #fff;
+	width: 15px;
+	height: 15px;
+	font-size: 12px;
+	margin: 0 5px;
+	text-align: center;
+	line-height: 15px;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+.page-list>li:hover{
+	background: #333;
+
+}
+.nav table{
+	width: 100%;
+}
+
+.nav{
+	background: url(../images/indexnav.jpg) repeat-x;
+	height: 33px;
+	overflow: hidden;
+}
+.nav .active-menu {
+	background: url(../images/navbj.jpg) center no-repeat;
+	color: #f96b0b;
+}
+.nav a{
+	display: inline-block;
+	width: 138px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+
+
+}
+.nav a:hover{
+	background: url(../images/navbj.jpg) center no-repeat;
+	color: #f96b0b;
+}
+
+.hole{
+	padding: 20px 0px;
+
+}
+.panel{
+	display:inline-block;
+	float: left;
+}
+.dongtai{
+	border: 1px solid #f96b0b;
+	width: 230px;
+	height: 320px;
+}
+.apple h2{
+	background: url(../images/indexnav.jpg) repeat-x;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 0px;
+
+}
+.bana p{
+	background: url(../images/second_menu_bg.png) no-repeat;
+	text-align: center;
+	width: 194px;
+	height: 33px;
+	line-height: 33px;
+	margin: 15px;
+
+}
+
+.bana p:hover{
+	color: #f96b0b;
+	text-decoration: underline;
+}
+.jinkuang {
+	padding-left: 30px;
+	width: 735px;
+	height: 145px;
+}
+
+.jinkuang h2{
+	font-size: 12px;
+	border-bottom: 3px solid;
+	background: url(../images/list_icon.png) no-repeat;
+	color: #f96b0b;
+	padding-bottom: 20px;
+	padding-left: 20px;
+
+}
+
+h3{
+	text-align: center;
+	color: #f96b0b;
+	padding-top: 20px;
+}
+.panel ol{
+	padding: 10px;
+}
+.panel li{
+	padding: 5px;
+}
+
+.fabu{
+	text-align: center;
+	padding: 10px;
+	border-bottom: 1px #888 dotted;
+}
+.over{
+	background-color: #888;
+	height: 35px;
+}
+.foot{
+	text-align: center;
+	line-height: 35px;
+	color:#fff;
+}
