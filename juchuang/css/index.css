@@ -91,28 +91,6 @@ h1{
 
 }
 
-
-.jianjie{
-	display: inline-block;
-	float: left;
-	width: 275px;
-	margin: 0 17px;
-	padding: 15px 0px 15px 0px;
-	line-height: 30px;
-	color: #666;
-
-}
-
-.guihua{
-	display: inline-block;
-	float: left;
-	width: 275px;
-	margin: 0 17px;
-	padding: 15px 0px 15px 0px;
-	line-height: 30px;
-	color: #666;
-}
-
 .panel {
 	float: left;
 	display: inline-block;
@@ -124,7 +102,7 @@ h1{
 }
 
 
-h2{
+.title h2{
 	background: url(../images/titlebg.png) no-repeat;
 	width: 66px;
 	height:22px;
@@ -135,19 +113,66 @@ h2{
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
+	position: relative;
+	bottom: -4px;
+
 }
 
-a{
+.title{
+	border-bottom: 1px solid #dc6c00;
+	padding-left: 3px;
+}
+
+.title a{
 float: right;
 color: #fa730c;
+text-decoration: none;
+position:relative;
+bottom: -4px;
 }
+.title a:hover {
+	text-decoration: none;
+}
+.time {
 
-span:hover{
+}
+.panel a:hover{
 	text-decoration: underline;
 
 }
-
-.float>li{
+.panel .time {
+	position: absolute;
+	right: 0;
+}
+.panel li {
+	position: relative;
+	border-bottom: 1px #c5c5c5 dashed;
+}
+.img-list>li{
 	float: left;
-	
+	margin: 5px;
+}
+.img-list a {
+	display: block;
+	border: 1px #ccc solid;
+	padding: 2px;
+}
+
+.img-list p{
+	text-align: center;
+}
+
+.img-list{
+	height: 120px;
+	overflow: hidden;
+}
+
+.over{
+	background-color: #888;
+	height: 35px;
+}
+.foot{
+	text-align: center;
+	line-height: 35px;
+	color:#fff;
 }
